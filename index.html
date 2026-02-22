@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>School Photobooth</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📸 My Cute Photobooth</h1>
+
+<!-- Camera preview -->
+
+<video id="video" autoplay playsinline></video>
+
+<!-- Countdown text -->
+
+<h2 id="countdown"></h2>
+
+<!-- Controls -->
+
+<div class="controls">
+
+  <!-- Caption input -->
+
+  <input type="text" id="caption" placeholder="Enter caption">
+
+  <!-- Layout chooser -->
+
+  <select id="layout">
+    <option value="strip">Photostrip</option>
+    <option value="grid">Grid</option>
+    <option value="polaroid">Polaroid</option>
+  </select>
+
+<br><br>
+
+  <!-- Buttons -->
+
+<button onclick="startBooth()">Start Camera Booth</button> <button onclick="download()">Download</button> <button onclick="saveGallery()">Save</button>
+
+</div>
+
+<!-- Canvas where photos appear -->
+
+<canvas id="canvas"></canvas>
+
+<br><br>
+
+<!-- Link to gallery page -->
+
+<a href="gallery.html">📂 Open Gallery</a>
+
+<!-- Connect JavaScript -->
+
+<script src="script.js"></script>
+
+</body>
+  </html>
