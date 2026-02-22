@@ -1,43 +1,46 @@
 body{
-text-align:center;
-font-family:Arial;
-background:linear-gradient(to bottom,#ffd6ec,#fff);
+  text-align:center;
+  font-family:Arial;
+  background:linear-gradient(to bottom,#ffd6ec,#fff);
 }
 
 h1{
-color:#ff2e88;
+  color:#ff2e88;
 }
 
 video{
-width:260px;
-border-radius:20px;
-border:5px solid white;
-box-shadow:0 6px 18px rgba(0,0,0,0.2);
+  width:260px;
+  border-radius:20px;
+  border:5px solid white;
+  box-shadow:0 6px 18px rgba(0,0,0,0.2);
+  /* REMOVE transform scaleX(-1) to avoid mirrored preview */
 }
 
 .controls{
-background:white;
-display:inline-block;
-padding:15px;
-border-radius:18px;
-margin-top:10px;
-box-shadow:0 6px 15px rgba(0,0,0,0.15);
+  background:white;
+  display:inline-block;
+  padding:15px;
+  border-radius:18px;
+  margin-top:10px;
+  box-shadow:0 6px 15px rgba(0,0,0,0.15);
 }
 
 button{
-background:#ff4da6;
-color:white;
-border:none;
-padding:10px 18px;
-margin:5px;
-border-radius:10px;
-font-weight:bold;
+  background:#ff4da6;
+  color:white;
+  border:none;
+  padding:10px 18px;
+  margin:5px;
+  border-radius:10px;
+  font-weight:bold;
 }
 
-button:hover
+button:hover{
+  background:#e60073;
+}
 
 canvas{
-margin-top:20px;
-border:2px solid black;
-background:white;
+  margin-top:20px;
+  border:2px solid black;
+  background:white;
 }
